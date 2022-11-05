@@ -12,7 +12,7 @@ try:                                             # used try statement for furthe
         if column[3] == "Manager":               # used if statement to choose employee type: Manager.
             total = total + int(column[2])       # added total entries of column[2] with employee type: Manager.
             i = i + 1                            # iterated the entries of column[2] with employee type: Manager.
-    print("The average salary is $", int(total / i), ".")
+    print("The average salary is", int(total / i), "dollars", ".")
     # printing average salary by dividing total salary amount of managers from the number of manager employees.
     # used int to match the given output.
 
